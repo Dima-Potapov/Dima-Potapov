@@ -22,7 +22,3 @@ jobs:
           plugin_stars: yes
           config_order: base.header, isocalendar, languages, stars
           config_display: large
-          filename: metrics.plugin.topics.icons.svg
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons

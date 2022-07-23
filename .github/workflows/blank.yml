@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: Dima-Potapov/metrics@master
+      - uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Minsk
@@ -22,12 +22,3 @@ jobs:
           plugin_stars: yes
           config_order: base.header, isocalendar, languages, stars
           config_display: large
-        name: Icons
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.topics.icons.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons

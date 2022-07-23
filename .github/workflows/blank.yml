@@ -22,12 +22,11 @@ jobs:
           plugin_stars: yes
           config_order: base.header, isocalendar, languages, stars
           config_display: large
-name: Icons
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.topics.icons.svg
-  token: NOT_NEEDED
-  base: ""
-  plugin_topics: yes
-  plugin_topics_limit: 0
-  plugin_topics_mode: icons
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.topics.icons.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons

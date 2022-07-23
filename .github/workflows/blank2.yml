@@ -1,5 +1,5 @@
 name: Icons
-uses: lowlighter/metrics@latest
+uses: Dima-Potapov/metrics@latest
 with:
   filename: metrics.plugin.topics.icons.svg
   token: NOT_NEEDED
